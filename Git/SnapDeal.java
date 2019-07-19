@@ -34,18 +34,13 @@ public class SnapDeal {
 		
 		String parent=d.getWindowHandle();
 		Set<String> child=d.getWindowHandles();
-		
-		
-		
+				
 		for(String x:child)
 		{
 			if(!x.equals(parent))
 			d.switchTo().window(x);
-			
-			
+				
 		}
-		
-		
 		
 		WebElement ad=d.findElement(By.xpath("//div[@id='add-cart-button-id']"));
 		ad.click();
