@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class newCode {
 	public static void main(String[] args)   {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\jayanthi\\eclipse-workspace\\Sampleee\\Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\jayanthi\\eclipse-workspace\\Sampleee\\src\\adactin\\adactin\\dri\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.adactin.com/HotelApp/");
 		WebElement user=driver.findElement(By.xpath("//input[@id='username']"));
